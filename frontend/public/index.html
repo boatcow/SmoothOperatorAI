@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="%PUBLIC_URL%/assets/images/favicon.ico">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="apple-touch-icon" sizes="192x192" href="%PUBLIC_URL%/assets/images/icon-192.png">
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Smooth Operator app" />
+
+    <title>Smooth Operator</title>
+
+    <style>
+      html, body { height: 100%; }
+
+      body { overflow: hidden; }
+
+      #app-root {
+        display: flex;
+        flex: 1 1 100%;
+        height: 100%;
+      }
+
+      /* width */
+      ::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #888;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div id="app-root"></div>
+  </body>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js').then((registration) => {
+          console.log('ServiceWorker registered: ', registration);
+        }).catch((registrationError) => {
+          console.log('ServiceWorker registration failed: ', registrationError);
+        });
+      });
+    }
+  </script>
+</html>

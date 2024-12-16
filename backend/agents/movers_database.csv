@@ -1,0 +1,7 @@
+name,phone,rating,specialties,min_price,max_price
+ABC Movers,(555) 123-4567,4.8,"local,packing,storage",1000,5000
+XYZ Moving,(555) 234-5678,4.6,"long-distance,piano,art",1500,9000
+Best Movers,(555) 345-6789,4.9,"local,packing,furniture",1200,6000 
+Aloha Movers,(555) 456-7890,4.7,"out of state and local,packing,furniture",3000,6500
+Migration Movers,(555) 567-8901,4.3,"long-distance, everything",2000,8000
+Budget Movers,(555) 678-9012,4.1,"local,no packing,all furniture",1000,4000

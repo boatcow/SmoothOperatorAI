@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"target": "ESNext",
+		"jsx": "react-jsx",
+		"rootDir": ".",
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"strict": false,
+		"moduleResolution": "Node",
+		"resolveJsonModule": true,
+		"noEmit": false,
+		"noImplicitAny": true,
+		"experimentalDecorators": true,
+		"typeRoots": ["./src/types", "./node_modules/react-native-native-ui/src/types"]
+    },
+	"include": [
+		"src", "public/serviceWorker.js",
+	]
+}
+

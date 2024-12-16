@@ -1,0 +1,17 @@
+{
+  "functions": [
+    {
+      "source": "./",
+      "codebase": "default",
+      "ignore": [
+        "venv",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local",
+        "demos_only",
+        "__pycache__"
+      ]
+    }
+  ]
+}
