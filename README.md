@@ -18,50 +18,23 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-#### Step 1: Start the Metro Server
-
-To start Metro, run the following command from the root of your React Native project:
+#### Step 1: Install Dependencies
 
 ```bash
 # using npm
-npm start
-
-# OR using Yarn
-yarn start
+npm install
 ```
 
-#### Step 2: Start your Application
+#### Step 2: Start Webpack
 
-Let Metro Bundler run in its own terminal. Open a new terminal from the root of your React Native project. Run the following command to start your Android or iOS app:
+Let Webpack bundle your react native project so that it can serve it for web.
 
 **For Android**
 
 ```bash
 # using npm
-npm run android
-
-# OR using Yarn
-yarn android
+npm run web
 ```
-
-**For iOS**
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-#### Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Windows and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
 ## Backend Setup Instructions
 
