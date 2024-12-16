@@ -29,8 +29,6 @@ npm install
 
 Let Webpack bundle your react native project so that it can serve it for web.
 
-**For Android**
-
 ```bash
 # using npm
 npm run web
