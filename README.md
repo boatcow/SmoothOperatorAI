@@ -1,12 +1,12 @@
-# Price Negotiator
+# Smooth Operator - AI Negotiator
+
+## Introduction
+
+Welcome to the Smooth Operator AI! This project uses LangChain to negotiate the price of a product or service offerings from an external vendor/contractor, currently focusing on moving services.
 
 This service is deployed at [https://smooth-operator.web.app/](https://smooth-operator.web.app/) if you want to try it out. 
 
 If running locally, it would require adding all auth tokens such as OpenAI, LangChain, Twilio, and Firebase.
-
-## Introduction
-
-Welcome to the Smooth Operator AI! This project uses LangChain to negotiate the price of a product or service offerings from an external vendor/contractor , currently focusing on moving services.
 
 ## Frontend Setup Instructions
 
