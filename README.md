@@ -1,5 +1,7 @@
 # Smooth Operator - AI Negotiator
 
+![Screenshot 2024-12-15 at 9 11 19 PM](https://github.com/user-attachments/assets/0b3b1d28-b84a-49bf-b6bd-df9bc6beda2f)
+
 ## Introduction
 
 Welcome to the Smooth Operator AI! This project uses LangChain to negotiate the price of a product or service offerings from an external vendor/contractor, currently focusing on moving services.
@@ -100,8 +102,8 @@ This guide will help you set up the backend server for the voice assistant appli
    - Go to the [Firebase Console](https://console.firebase.google.com/).
    - Create a new project or select an existing one.
    - Navigate to Project Settings > Service accounts.
-   - Generate a new private key and download the `firebase_Adminsdk.json` file.
-   - Place the `firebase_Adminsdk.json` file in the `backend` directory of your project.
+   - Generate a new private key and download the `firebase_adminsdk.json` file.
+   - Place the `firebase_adminsdk.json` file in the `backend` directory of your project.
 
 5. **Run the Server**
 
